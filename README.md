@@ -17,7 +17,7 @@ For this paper, I used Python 3.9. Install the `requirements.txt`. You may need 
 
 ## Pre-training the Models
 Most of the code for this is from Huggingface. To run the pre-processing, please download the proper files, and then run `preprocessing_notes_tag_insertion.sh`. 
-- You will need to get the radqa.csv + discharge.csv from MIMIC-IV.
+- You will need to get the `radqa.csv` + `discharge.csv` from MIMIC-IV.
 - `noteevents.csv` is from MIMIC-III.
 
 For actually training the models, please see the scripts in `scripts/pretraining`.
